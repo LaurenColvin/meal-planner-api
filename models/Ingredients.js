@@ -7,6 +7,7 @@ const ingredientsSchema = new Schema({
   amount: Number,
   measurement: String,
   item: String,
+  category: String,
 });
 
 module.exports = mongoose.model("Ingredients", ingredientsSchema);
